@@ -1,1 +1,66 @@
-[]
+[
+    {
+        "id": "figma-portfolios",
+        "title": "Crear diseños en Figma de 3 portfolios",
+        "category": "Diseño",
+        "status": "en progreso",
+        "progress": "75",
+        "description": "Tres diseños de portfolio (retro, moderno y personal)"
+    },
+    {
+        "id": "gatunacrochet-web",
+        "title": "Terminar la web de GatunaCrochet",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "90",
+        "description": "Tienda online para GatunaCrochet con catálogo de productos"
+    },
+    {
+        "id": "portfolio-personal",
+        "title": "Desarrollar un portfolio personal",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "70",
+        "description": "Terminar de desarrollar mi portfolio personal ya comenzado"
+    },
+    {
+        "id": "pagina-portfolios",
+        "title": "Desarrollar una página de portfolios",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "description": "Página donde se muestre el diseño de mis portfolios creados"
+    },
+    {
+        "id": "tailwind",
+        "title": "Aprender Tailwind CSS",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "description": "Aprender Tailwind CSS desde 0"
+    },
+    {
+        "id": "bootstrap",
+        "title": "Aprender Bootstrap",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "description": "Aprender Bootstrap desde 0"       
+    },
+    {
+        "id": "git-github",
+        "title": "Aprender Git y Github",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "20",
+        "description": "Aprender Git y Github y ponerlo en práctica"
+    },
+    {
+        "id": "firma-gmail",
+        "title": "Realizar una firma de gmail para mis correos",
+        "category": "Diseño",
+        "status": "en progreso",
+        "progress": "50",
+        "description": "Crear una firma para Gmail para uso personal"
+    }
+]
