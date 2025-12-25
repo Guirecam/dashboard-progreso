@@ -20,19 +20,31 @@ fetch("projects.json")
                 : "";
 
             card.innerHTML = `
-                <h2 class="project-title">${project.title}</h2>
-                <div class="progress-wrapper">
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width:${progress}%">
-                            <span class="progress-number">${progress}%</span>
-                        </div>
-                        ${milestonesHTML}
-                    </div>
+    <div class="front">
+        <h2 class="project-title">${project.title}</h2>
+
+        <div class="progress-wrapper">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:${progress}%">
+                    <span class="progress-number">${progress}%</span>
                 </div>
-                <p class="project-description">${project.description}</p>
-                <p class="project-status">Estado: ${project.status}</p>
-                <p class="project-category">Categoría: ${project.category}</p>
-            `;
+                ${milestonesHTML}
+            </div>
+        </div>
+
+        <p class="project-description">${project.description}</p>
+        <p class="project-status">Estado: ${project.status}</p>
+        <p class="project-category">Categoría: ${project.category}</p>
+    </div>
+
+    <div class="back">
+        <p>Más información...</p>
+    </div>
+`;
+
+            card.addEventListener("click", () => {
+                card.classList.toggle("flipped");
+            });
 
             container.appendChild(card);
         });
