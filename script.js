@@ -57,9 +57,9 @@ fetch("projects.json")
                 </div>
             </div>
 
-            <p class="project-description">${project.description}</p>
-            <p class="project-status">Estado: ${project.status}</p>
-            <p class="project-category">Categoría: ${project.category}</p>
+            <p class="project-description"><u>Descripción:</u> ${project.description}</p>
+            <p class="project-status"><u>Estado:</u> ${project.status}</p>
+            <p class="project-category"><u>Categoría:</u> ${project.category}</p>
         </div>
 
         <div class="back">
