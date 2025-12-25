@@ -4,22 +4,37 @@
         "title": "Crear diseños en Figma de 3 portfolios",
         "category": "Diseño",
         "status": "en progreso",
-        "progress": "75",
+        "progress": "50",
         "milestones": [
             {
                 "value": 25,
-                "label": "Retro"
+                "label": "Diseño"
             },
             {
                 "value": 50,
-                "label": "Moderno"
+                "label": "Móvil"
             },
             {
                 "value": 75,
-                "label": "Personal"
+                "label": "Guía de estilos"
             }
         ],
-        "description": "Creación en figma de 3 diseños de portfolio (retro, moderno y personal)"
+        "description": "Creación en figma de 3 diseños de portfolio (retro, moderno y personal)",
+        "doneTasks": [
+            {
+                "task1": "Diseño escritorio (Retro, Modern, Personal)✔️",
+                "task2": "Versión de móvil (Retro, Modern)✔️",
+                "task3": "Guía de estilos (Retro)✔️",
+                "task4": "Mockup (Retro)✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Versión de móvil (Personal)⭕",
+                "task2": "Guía de estilos (Modern, Personal)⭕",
+                "task3": "Mockup (Modern, Personal)⭕"
+            }
+        ]
     },
     {
         "id": "gatunacrochet-web",
@@ -41,7 +56,18 @@
                 "label": "Figma"
             }
         ],
-        "description": "Tienda online para GatunaCrochet con catálogo de productos"
+        "description": "Tienda online para GatunaCrochet con catálogo de productos",
+        "doneTasks": [
+            {
+                "task1": "Web desarrollada✔️",
+                "task2": "Publicada (dominio y hosting)✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Diseño en figma terminado⭕"
+            }
+        ]
     },
     {
         "id": "portfolio-personal",
@@ -63,7 +89,19 @@
                 "label": "Pulir y publicar"
             }
         ],
-        "description": "Terminar de desarrollar mi portfolio personal ya comenzado"
+        "description": "Terminar de desarrollar mi portfolio personal ya comenzado",
+        "doneTasks": [
+            {
+                "task1": "Diseño en Figma✔️",
+                "task2": "Desarrollo web✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Duplicar proyecto en github⭕",
+                "task2": "Publicar en github⭕"
+            }
+        ]
     },
     {
         "id": "pagina-portfolios",
@@ -85,7 +123,17 @@
                 "label": "Publicación"
             }
         ],
-        "description": "Página donde se muestre el diseño de mis portfolios creados"
+        "description": "Página donde se muestre el diseño de mis portfolios creados",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Crear diseño en Figma⭕",
+                "task2": "Desarrollar web⭕",
+                "task3": "Publicar en github⭕"
+            }
+        ]
     },
     {
         "id": "tailwind",
@@ -107,7 +155,15 @@
                 "label": ""
             }
         ],
-        "description": "Aprender Tailwind CSS desde 0"
+        "description": "Aprender Tailwind CSS desde 0",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Aprender Tailwind CSS⭕"
+            }
+        ]
     },
     {
         "id": "bootstrap",
@@ -129,14 +185,22 @@
                 "label": ""
             }
         ],
-        "description": "Aprender Bootstrap desde 0"
+        "description": "Aprender Bootstrap desde 0",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Aprender Bootstrap⭕"
+            }
+        ]
     },
     {
         "id": "git-github",
         "title": "Aprender Git y Github",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "75",
+        "progress": "100",
         "milestones": [
             {
                 "value": 25,
@@ -151,7 +215,17 @@
                 "label": "Aplicarlo en proyecto"
             }
         ],
-        "description": "Aprender Git y Github y ponerlo en práctica"
+        "description": "Aprender Git y Github y ponerlo en práctica",
+        "doneTasks": [
+            {
+                "task1": "Aprender conceptos básicos✔️",
+                "task2": "Diferenciar git y github✔️",
+                "task3": "Aplicarlo en proyectos✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ]
     },
     {
         "id": "firma-gmail",
@@ -159,7 +233,7 @@
         "category": "Diseño",
         "status": "en progreso",
         "progress": "50",
-                "milestones": [
+        "milestones": [
             {
                 "value": 25,
                 "label": "Diseño"
@@ -173,6 +247,17 @@
                 "label": "Definitiva"
             }
         ],
-        "description": "Crear una firma para Gmail para uso personal"
+        "description": "Crear una firma para Gmail para uso personal",
+        "doneTasks": [
+            {
+                "task1": "Diseño en código✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Mejorar el diseño⭕",
+                "task2": "Publicar en github⭕"
+            }
+        ]
     }
 ]
