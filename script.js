@@ -52,17 +52,25 @@ fetch("projects.json")
                     .map(task => `<li>${task}</li>`)
                     .join("");
             }
+            // ========== ICONOS DE SOFTWARE ==========
+
             let iconHTML = "";
 
-            if (project.software && project.software.icon1) {
-                iconHTML = `
-        <div class="software">
-            <div class="software-icons">
-                <img src="${project.software.icon1}" alt="Software principal">
+            if (project.software) {
+                // Object.values → ["assets/img/logoWordpress.png", "assets/img/logoElementor.png", ...]
+                const icons = Object.values(project.software).filter(Boolean);
+
+                if (icons.length > 0) {
+                    iconHTML = `
+            <div class="software">
+                <div class="software-icons">
+                    ${icons.map(src => `<img src="${src}" alt="Software usado">`).join("")}
+                </div>
             </div>
-        </div>
-    `;
+        `;
+                }
             }
+
 
 
             card.innerHTML = `

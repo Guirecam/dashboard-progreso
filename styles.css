@@ -367,10 +367,9 @@ main {
     height: auto;
 }
 
-.software {
+.software-icons {
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    gap: 0.5rem;
 }
 
 /* ----- Intro ----- */

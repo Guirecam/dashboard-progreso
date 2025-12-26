@@ -72,7 +72,9 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoWordpress.png",
+            "icon2": "assets/img/logoElementor.png",
+            "icon3": "assets/img/logoFigma.png"
         }
     },
     {
