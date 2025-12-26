@@ -52,39 +52,54 @@ fetch("projects.json")
                     .map(task => `<li>${task}</li>`)
                     .join("");
             }
+            let iconHTML = "";
 
-            card.innerHTML = `
-        <div class="front">
-            <h2 class="project-title">${project.title}</h2>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width:${progress}%">
-                        <span class="progress-number">${progress}%</span>
-                        <div class="bubbles"></div>
-                    </div>
-                    ${milestonesHTML}
-                </div>
+            if (project.software && project.software.icon1) {
+                iconHTML = `
+        <div class="software">
+            <div class="software-icons">
+                <img src="${project.software.icon1}" alt="Software principal">
             </div>
-
-            <p class="project-description"><u>Descripción:</u> ${project.description}</p>
-            <p class="project-status"><u>Estado:</u> ${project.status}</p>
-            <p class="project-category"><u>Categoría:</u> ${project.category}</p>
-            <p class="card-click">PULSA PARA GIRAR</p>
-        </div>
-
-        <div class="back">
-            <h3>Tareas completadas</h3>
-            <ul>
-                ${doneTasksHTML || "<li>No hay tareas completadas.</li>"}
-            </ul>
-
-            <h3>Tareas por completar</h3>
-            <ul>
-                ${undoneTasksHTML || "<li>No hay tareas pendientes.</li>"}
-            </ul>
-            <p class="card-click">PULSA PARA GIRAR</p>
         </div>
     `;
+            }
+
+
+            card.innerHTML = `
+    <div class="front">
+        <h2 class="project-title">${project.title}</h2>
+        <div class="progress-wrapper">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:${progress}%">
+                    <span class="progress-number">${progress}%</span>
+                    <div class="bubbles"></div>
+                </div>
+                ${milestonesHTML}
+            </div>
+        </div>
+
+        <p class="project-description"><u>Descripción:</u> ${project.description}</p>
+        <p class="project-status"><u>Estado:</u> ${project.status}</p>
+        <p class="project-category"><u>Categoría:</u> ${project.category}</p>
+        <p class="card-click">PULSA PARA GIRAR</p>
+
+        ${iconHTML}
+    </div>
+
+    <div class="back">
+        <h3>Tareas completadas</h3>
+        <ul>
+            ${doneTasksHTML || "<li>No hay tareas completadas.</li>"}
+        </ul>
+
+        <h3>Tareas por completar</h3>
+        <ul>
+            ${undoneTasksHTML || "<li>No hay tareas pendientes.</li>"}
+        </ul>
+        <p class="card-click">PULSA PARA GIRAR</p>
+    </div>
+`;
+
 
             card.addEventListener("click", () => {
                 card.classList.toggle("flipped");

@@ -25,11 +25,25 @@ body {
 }
 
 @keyframes bgMove {
-    0% { background-position: 0% 50%; }
-    25% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    75% { background-position: 100% 50%; }
-    100% { background-position: 100% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 /* =========== Header =========== */
@@ -214,7 +228,6 @@ main {
     animation: gradientMove 15s ease infinite;
     z-index: 0;
     border: 2px solid white;
-    rgba(60, 237, 234, 0.941)rgba(60, 237, 110, 0.941)rgba(21, 252, 87, 0.941);
     box-shadow: 0 3px 10px rgba(16, 255, 52, 0.941);
 }
 
@@ -349,6 +362,16 @@ main {
     white-space: nowrap;
 }
 
+.software-icons>img {
+    width: 40px;
+    height: auto;
+}
+
+.software {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
 
 /* ----- Intro ----- */
 

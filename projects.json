@@ -34,7 +34,10 @@
                 "task2": "Guía de estilos (Modern, Personal)⭕",
                 "task3": "Mockup (Modern, Personal)⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "gatunacrochet-web",
@@ -67,7 +70,10 @@
             {
                 "task1": "Diseño en figma terminado⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "portfolio-personal",
@@ -101,7 +107,10 @@
                 "task1": "Duplicar proyecto en github⭕",
                 "task2": "Publicar en github⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "git-github",
@@ -133,7 +142,10 @@
         ],
         "undoneTasks": [
             {}
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "firma-gmail",
@@ -166,7 +178,10 @@
                 "task1": "Mejorar el diseño⭕",
                 "task2": "Publicar en github⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "pagina-portfolios",
@@ -198,7 +213,10 @@
                 "task2": "Desarrollar web⭕",
                 "task3": "Publicar en github⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "tailwind",
@@ -228,7 +246,10 @@
             {
                 "task1": "Aprender Tailwind CSS⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     },
     {
         "id": "bootstrap",
@@ -258,6 +279,9 @@
             {
                 "task1": "Aprender Bootstrap⭕"
             }
-        ]
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
     }
 ]
