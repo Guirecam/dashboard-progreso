@@ -63,6 +63,7 @@ fetch("projects.json")
                 if (icons.length > 0) {
                     iconHTML = `
             <div class="software">
+                    <p class="project-software-used"><u>Software:</u></p>
                 <div class="software-icons">
                     ${icons.map(src => `<img src="${src}" alt="Software usado">`).join("")}
                 </div>
@@ -70,8 +71,6 @@ fetch("projects.json")
         `;
                 }
             }
-
-
 
             card.innerHTML = `
     <div class="front">
@@ -85,13 +84,13 @@ fetch("projects.json")
                 ${milestonesHTML}
             </div>
         </div>
-
+        ${iconHTML}
         <p class="project-description"><u>Descripción:</u> ${project.description}</p>
         <p class="project-status"><u>Estado:</u> ${project.status}</p>
         <p class="project-category"><u>Categoría:</u> ${project.category}</p>
         <p class="card-click">PULSA PARA GIRAR</p>
 
-        ${iconHTML}
+        
     </div>
 
     <div class="back">
@@ -107,7 +106,6 @@ fetch("projects.json")
         <p class="card-click">PULSA PARA GIRAR</p>
     </div>
 `;
-
 
             card.addEventListener("click", () => {
                 card.classList.toggle("flipped");

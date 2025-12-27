@@ -111,7 +111,13 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoFigma.png",
+            "icon2": "assets/img/logoHTML.png",
+            "icon3": "assets/img/logoCSS.png",
+            "icon4": "assets/img/logoJS.png",
+            "icon5": "assets/img/logoGithub.png",
+            "icon6": "assets/img/logoReact.png",
+            "icon7": "assets/img/logoNode4.png"
         }
     },
     {
@@ -146,7 +152,8 @@
             {}
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoGit.png",
+            "icon2": "assets/img/logoGithub.png"
         }
     },
     {
@@ -182,7 +189,8 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoVSC.png",
+            "icon12": "assets/img/logoGmail.png"
         }
     },
     {
@@ -217,7 +225,10 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoFigma.png",
+            "icon2": "assets/img/logoHTML.png",
+            "icon3": "assets/img/logoTailwind.png",
+            "icon4": "assets/img/logoJS.png"
         }
     },
     {
@@ -250,7 +261,7 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoTailwind.png"
         }
     },
     {
@@ -283,7 +294,7 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png"
+            "icon1": "assets/img/logoBootstrap.png"
         }
     }
 ]

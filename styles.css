@@ -169,7 +169,7 @@ main {
     gap: 0.5rem;
     flex: 1 1 calc(25% - 1.5rem);
     min-width: 300px;
-    min-height: 400px;
+    min-height: 480px;
     max-width: 300px;
     max-height: 600px;
     background-color: rgb(50, 54, 53);
@@ -323,6 +323,13 @@ main {
     letter-spacing: 2px;
 }
 
+.project-software-used {
+    font-size: 0.7rem;
+    font-weight: 800;
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+}
+
 .card-click {
     font-size: 0.65rem;
     font-weight: 700;
@@ -369,7 +376,9 @@ main {
 
 .software-icons {
     display: flex;
-    gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 15px;
 }
 
 /* ----- Intro ----- */
